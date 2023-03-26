@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78078628-b082-436b-b259-ae926f0349c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ChallengeProject/all_suite_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests_robotframework.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChallengeProject/test_cases/filling_form_and_add_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ChallengeProject/test_cases/filling_form_and_add_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChallengeProject/all_suite_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ChallengeProject/all_suite_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChallengeProject/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ChallengeProject/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChallengeProject/pages/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ChallengeProject/pages/dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alert.png" beforeDir="false" afterPath="$PROJECT_DIR$/alert.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests_robotframework.robot" beforeDir="false" afterPath="$PROJECT_DIR$/tests_robotframework.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,36 +47,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/projects/my_robotframework",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\my_robotframework" />
       <recent name="C:\projects\my_robotframework\drivers" />
     </key>
   </component>
   <component name="RunManager" selected="Robot.tests_robotframework.robot">
-    <configuration name="Add a player page (1)" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
-      <module name="my_robotframework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\projects\my_robotframework\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;my_robotframework.tests_robotframework.Add a player page&quot; ." />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Choose leg" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="my_robotframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Sign out" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+    <configuration name="Language button" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
       <module name="my_robotframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +91,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value="--test &quot;my_robotframework.filling_form_and_add_player.Sign out&quot; ." />
+      <option name="PARAMETERS" value="--test &quot;my_robotframework.tests_robotframework.Language button&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Login to the system" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="my_robotframework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\projects\my_robotframework\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;my_robotframework.tests_robotframework.Login to the system&quot; ." />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="true" />
@@ -159,9 +166,9 @@
       <list>
         <item itemvalue="Robot.tests_robotframework.robot" />
         <item itemvalue="Robot.Choose leg" />
-        <item itemvalue="Robot.Add a player page (1)" />
         <item itemvalue="Robot.Youtube fill and delete" />
-        <item itemvalue="Robot.Sign out" />
+        <item itemvalue="Robot.Language button" />
+        <item itemvalue="Robot.Login to the system" />
       </list>
     </recent_temporary>
   </component>

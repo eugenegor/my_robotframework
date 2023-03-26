@@ -3,7 +3,7 @@ Library  SeleniumLibrary
 Documentation    Suite description #automated tests for scout website
 
 *** Variables ***
-${LOGIN URL}      https://scouts-test.futbolkolektyw.pl/en
+${LOGIN URL}      https://scouts-test.futbolkolektyw.pl/en/
 ${BROWSER}        Chrome
 ${SIGNINBUTTON}     xpath=//*[text()='Sign in']
 ${EMAILINPUT}     xpath=//*[@id='login']
@@ -182,6 +182,7 @@ Fill and delete youtube form
                                                      #Click leg and click rihgt leg
 
 Click leg and click rihgt leg
+    Wait Until Element Is Visible       //*[@id='mui-component-select-leg']
     Click Element       //*[@id='mui-component-select-leg']
     Wait Until Element Is Visible       ${RIGHT LEG CHOOSE BUTTON}
     Click Element       //*[@data-value='right']
